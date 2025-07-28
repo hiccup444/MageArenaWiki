@@ -15,7 +15,7 @@ This document outlines the effects of different soup types in the game.
 - Effect duration: 120 seconds (2 minutes)
 
 **Message:** "A surge of magical energy passes through you..."
-
+---
 ### Log Soup
 **Display Name:** "Log Soup"
 
