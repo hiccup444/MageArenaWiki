@@ -1,2 +1,2 @@
-[Consumables (Soup)](./files/Soup.md)
-[Consumables (Spells)](./files/Spells.md)
+[Consumables (Soup)](./files/Soup.md)  
+[Consumables (Spells)](./files/Spells.md)  
