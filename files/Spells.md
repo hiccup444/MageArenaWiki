@@ -78,7 +78,7 @@
   2. 5 units forward + 5 units up, raycast down  
   3. 20 units forward at eye level
 * **Teleportation:** Instant movement with position confirmation over 5 frames
-
+---
 ## Holy Light (Divine)
 
 * **Range:** 40-unit radius sphere
@@ -86,3 +86,19 @@
 * **Delay:** 0.25 seconds before healing applies
 * **Team Targeting:** Affects all players regardless of team
 * **Visual:** Large light beam from 40 units above caster
+---
+## Wormhole
+
+* **Teleportation:** Instantly teleports players between paired wormholes
+* **Player Safety:** Disables exit wormhole for 1 second to prevent rapid teleporting
+* **Fireball Transport:** Can teleport fireballs between wormholes
+* **Destruction:** Can be destroyed by frost bolts or lightning
+
+## Lightning Bolt (Thunderbolt)
+
+* **Shape:** Box-shaped area
+* **Instant Cast:** No travel time, hits immediately at target location
+* **Damage:** 50 - (distance × 5) HP (clamped 5-100)
+* **Camera Shake:** Applied to players within 50 units
+* **Destroys:** Wormholes, lights braziers, triggers hitable objects
+* **Area Effect:** Hits all targets within the lightning column
