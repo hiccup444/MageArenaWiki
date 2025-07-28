@@ -58,3 +58,31 @@
 * **AI Shot:** 10 HP
 * **Player Shot:** 12.5 + (level ÷ 2) HP
 * **Against NPCs:** 14 + (level × 2) HP
+---
+## Dark Blast
+
+* **Shape:** Box-shaped beam
+* **Duration:** 0.8 seconds of damage ticks
+* **Tick Rate:** Every 0.1 seconds
+* **Range:** 70 units forward from caster
+* **Damage per Hit:** 12 HP + 2 seconds fire timer
+* **Against NPCs:** 15 HP per hit
+* **Multi-Hit:** Can hit same target multiple times during duration
+* **Destroys:** Wormholes, lights braziers, triggers hitable objects
+---
+## Blink
+
+* **Range:** Up to 15 units forward
+* **Targeting Priority:**
+  1. 15 units forward + 10 units up, raycast down
+  2. 5 units forward + 5 units up, raycast down  
+  3. 20 units forward at eye level
+* **Teleportation:** Instant movement with position confirmation over 5 frames
+
+## Holy Light (Divine)
+
+* **Range:** 40-unit radius sphere
+* **Effect:** Heals all players within range for 50 HP
+* **Delay:** 0.25 seconds before healing applies
+* **Team Targeting:** Affects all players regardless of team
+* **Visual:** Large light beam from 40 units above caster
