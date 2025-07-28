@@ -1,6 +1,6 @@
 # Soup Effects Documentation
 
-This document outlines the effects of different soup types in the game.
+This document outlines the effects of different consumables/soups in the game.
 
 ## Soup Types and Effects
 
