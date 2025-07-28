@@ -1,1 +1,1 @@
-[test](./files/Soup.md)
+[Consumables (Soup)](./files/Soup.md)
