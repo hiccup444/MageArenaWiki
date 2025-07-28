@@ -44,7 +44,7 @@
 * -6 speed boost penalty (double)
 
 * **Breakout:** Ice can be broken by taking fireball explosion damage
-
+---
 ## Magic Missile
 
 * **Muzzle Velocity:** 20 units/second
