@@ -78,8 +78,6 @@
 * **Cooldown:** 30 seconds per charge regeneration
 * **Pattern:** Creates 5×5 grid of spikes centered on target point
 * **Duration:** Spikes remain for 60 seconds before retracting
----
-## Spike Field Mechanics
 
 ### Spike Growth Pattern
 * **Grid Size:** 5×5 spikes (25 total spikes)
