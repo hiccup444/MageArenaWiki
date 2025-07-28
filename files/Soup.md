@@ -23,7 +23,7 @@ This document outlines the effects of different soup types in the game.
 - Instantly heals +50 health points
 
 **Message:** "Your skin hardens like tree bark..."
-
+---
 ### Mushroom Soup
 **Display Name:** "Mushroom Soup"
 
@@ -32,7 +32,7 @@ This document outlines the effects of different soup types in the game.
 - Effect duration: 120 seconds (2 minutes)
 
 **Message:** "Your joints feel like rubber..."
-
+---
 ### Frog Soup
 **Display Name:** "Frog Soup"
 
@@ -44,7 +44,7 @@ This document outlines the effects of different soup types in the game.
 - - Each successful hit applies frog force and makes target drop items
 
 **Message:** "Your tongue gains a mind of its own..."
-
+---
 ### Rock Soup
 **Display Name:** "Rock Soup"
 
@@ -53,14 +53,14 @@ This document outlines the effects of different soup types in the game.
 - Effect duration: 4 seconds
 
 **Message:** "Your voice bellows from the mountain tops..."
-
+---
 ### Pipe Smoking
 
 **Effects:**
 - Increases level by +1 (if crystal CD reduction < 4)
 - Increases crystal CD reduction by +1 (max 4)
 - Effect duration: 15 seconds
-
+---
 ## Important Notes
 
 ### Crystal CD Reduction
