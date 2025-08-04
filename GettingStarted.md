@@ -231,7 +231,7 @@ namespace MyFirstPlugin
 
 ### Best Practices
 
-1. **Use meaningful GUIDs** - Include your name/organization
+1. **Use meaningful GUIDs** - Include your name/modname. A good mod is named: `com.author.name`
 2. **Log important events** - Use `Logger.LogInfo()`, `Logger.LogWarning()`, etc.
 3. **Handle errors gracefully** - Use try-catch blocks for risky operations
 4. **Follow naming conventions** - Use PascalCase for public members
@@ -242,6 +242,10 @@ namespace MyFirstPlugin
 - **[BepInEx Documentation](https://docs.bepinex.dev/)** - Official BepInEx guides
 - **[Unity Scripting Reference](https://docs.unity3d.com/ScriptReference/)** - Unity API documentation
 - **[Harmony Documentation](https://harmony.pardeike.net/)** - Code patching library
-- **[Mage Arena Modding Discord](discord-link)** - Community support
+- **[Spell Creation Guide](BlackMagicAPI.md#creating-spells)** - Using BlackMagicAPI to create custom spells
+- **[Item Creation Guide](BlackMagicAPI.md#creating-items)** - Using BlackMagicAPI to create custom items
+- **[Utilizing ModSync](ModSync.md)** - Using ModSync to ensure multiplayer compatability
+- **[Mage Arena Modding Discord](https://discord.gg/GHdT7kHEBT)** - Community support
+- 
 
 Happy modding! 🔮✨
