@@ -288,3 +288,9 @@ public override async Task<ItemBehavior?> GetItemPrefab()
 - ❌ **"File does not exist"**: Check case sensitivity and path
 - ❌ **"Failed to load image"**: Verify PNG is uncompressed/not corrupt
 - ℹ️ **All errors log to BepInEx console**
+
+## Other Links
+
+- [ModSync Guide](ModSync.md) - For syncing mods between all players
+- [BepInEx Documentation](https://docs.bepinex.dev/) - Plugin development basics
+- [Mage Arena Modding Wiki](/) - General modding information
