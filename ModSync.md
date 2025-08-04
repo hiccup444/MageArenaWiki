@@ -195,6 +195,8 @@ private void Awake()
 - Check BepInEx logs for dependency errors
 - Confirm your mod's sync mode is declared correctly
 
+## Other Links
+
 - [BlackMagicAPI Guide](BlackMagicAPI.md) - For creating custom spells and items
 - [BepInEx Documentation](https://docs.bepinex.dev/) - Plugin development basics
 - [Mage Arena Modding Wiki](/) - General modding information
