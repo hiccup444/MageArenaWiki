@@ -186,7 +186,7 @@ Now that you have a basic plugin working, you can:
 ### Learn Advanced Modding
 - **[Using ModSync](ModSync.md)** - Make your mods multiplayer-compatible
 - **[BlackMagicAPI Guide](BlackMagicAPI.md)** - Create custom spells and items
-- **[Harmony Patching](https://harmony.pardeike.net/)** - Modify existing game code
+- **[Harmony Patching](https://docs.bepinex.dev/articles/dev_guide/runtime_patching.html)** - Modify existing game code
 
 ### Expand Your Plugin
 
