@@ -187,7 +187,7 @@ Now that you have a basic plugin working, you can:
 - **[Using ModSync](ModSync.md)** - Make your mods multiplayer-compatible
 - **[BlackMagicAPI Guide](BlackMagicAPI.md)** - Create custom spells and items
 - **[Harmony Patching](https://docs.bepinex.dev/articles/dev_guide/runtime_patching.html)** - Modify existing game code
-
+- Use [Dnspy](https://github.com/dnSpy/dnSpy) or [Ilspy](https://github.com/icsharpcode/ILSpy) to decompile the games Assembly-CSharp. This is the main method to view the games code.
 ### Expand Your Plugin
 
 ```csharp
