@@ -76,6 +76,7 @@ namespace AnotherExampleMod
 {
     [BepInPlugin("com.example.clientonly", "Client Only Mod", "1.0.0")]
     [BepInProcess("MageArena.exe")]
+    // The hard BepInEx dependency is NOT required in any mod that isnt tagged as "all"
     [BepInDependency("com.magearena.modsync", BepInDependency.DependencyFlags.HardDependency)]
     public class ClientOnlyMod : BaseUnityPlugin
     {
@@ -97,6 +98,7 @@ namespace HostOnlyExample
 {
     [BepInPlugin("com.example.hostonly", "Host Only Mod", "1.0.0")]
     [BepInProcess("MageArena.exe")]
+    // The hard BepInEx dependency is NOT required in any mod that isnt tagged as "all"
     [BepInDependency("com.magearena.modsync", BepInDependency.DependencyFlags.HardDependency)]
     public class HostOnlyMod : BaseUnityPlugin
     {
