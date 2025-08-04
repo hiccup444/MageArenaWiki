@@ -140,7 +140,7 @@ namespace NoSyncExample
 **Use `"all"` for:**
 - New spells or abilities
 - Gameplay mechanics changes
-- Balance modifications
+- Cheat Mods
 - New items or weapons
 - Anything that affects game state
 
@@ -165,10 +165,7 @@ namespace NoSyncExample
 
 ### Development Tips
 
-1. **Always test compatibility** - Join games with and without your mod to ensure proper behavior
-2. **Use descriptive mod IDs** - Make them unique and easily identifiable
-3. **Version your mods properly** - ModSync uses version information for compatibility
-4. **Document your sync requirements** - Let users know what sync mode your mod uses
+1. **Proper Naming**: Name your mod com.author.mod for full compatability with modsync.
 
 ### Error Handling
 
@@ -197,21 +194,6 @@ private void Awake()
 - Verify ModSync is installed and working
 - Check BepInEx logs for dependency errors
 - Confirm your mod's sync mode is declared correctly
-
-**Connection issues:**
-- Make sure host-only mods aren't on clients expecting universal sync
-- Verify client-only mods aren't required by the host
-- Check for conflicting mod versions
-
-### Debug Information
-
-ModSync logs compatibility information to the BepInEx console. Look for:
-- Mod discovery messages
-- Sync mode detection
-- Compatibility check results
-- Connection status updates
-
-## Related Documentation
 
 - [BlackMagicAPI Guide](BlackMagicAPI.md) - For creating custom spells and items
 - [BepInEx Documentation](https://docs.bepinex.dev/) - Plugin development basics
