@@ -1,6 +1,6 @@
 # BlackMagicAPI
 
-A framework for creating custom spells and items in Mage Arena.
+[The BlackMagicAPI framework](https://thunderstore.io/c/mage-arena/p/D1GQ/BlackMagicAPI/wiki/3840-blackmagicapi-guide) for creating custom spells and items in Mage Arena.
 
 ## Table of Contents
 - [Prerequisites](#prerequisites)
