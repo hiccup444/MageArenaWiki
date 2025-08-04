@@ -19,10 +19,9 @@ ModSync works by:
 
 To make your mod compatible with ModSync, you need to:
 
-1. **Add ModSync as a dependency** in your plugin attributes
+1. **Add ModSync as a dependency** in your plugin attributes. Use a [Bepinex Hard Dependency](https://docs.bepinex.dev/articles/dev_guide/plugin_tutorial/2_plugin_start.html) to do this. Your mod should NOT load without ModSync present if it can be abused in vanilla lobbies.
 2. **Define a sync mode** using a static string variable
-3. **Initialize your mod** knowing ModSync is available. Use a [Bepinex Hard Dependency](https://docs.bepinex.dev/articles/dev_guide/plugin_tutorial/2_plugin_start.html) to do this. Your mod should NOT load without ModSync present if it can be abused in vanilla lobbies.
-
+3. **Initialize your mod** knowing ModSync is available
 ### Required Plugin Attributes
 
 ```csharp
