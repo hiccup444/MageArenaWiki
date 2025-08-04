@@ -1,2 +1,5 @@
 [Spell Creation Guide](BlackMagicAPI.md#creating-spells)   
-[Item Setup](BlackMagicAPI.md#creating-items)   
+
+[Item Creation Guide](BlackMagicAPI.md#creating-items)   
+
+[Utilizing ModSync](ModSync.md)
