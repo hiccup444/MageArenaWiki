@@ -167,6 +167,15 @@ public class MyItemMod : BaseUnityPlugin
 ### Item Data Configuration
 
 ```csharp
+internal class HealthPotionData : ItemData
+{
+    public override string Name => "Health Potion";
+    public override bool CanSpawnInTeamChest => true;
+}
+```
+
+**Advanced Item Configuration:**
+```csharp
 internal class DemonHeartData : ItemData
 {
     public override string Name => "Demon Heart";
@@ -189,7 +198,6 @@ internal class DemonHeartData : ItemData
         return prefab.GetComponent<ItemBehavior>();
     }
 }
-```
 
 ### Item Behavior Logic
 
