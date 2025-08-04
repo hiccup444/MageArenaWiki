@@ -246,6 +246,5 @@ namespace MyFirstPlugin
 - **[Item Creation Guide](BlackMagicAPI.md#creating-items)** - Using BlackMagicAPI to create custom items
 - **[Utilizing ModSync](ModSync.md)** - Using ModSync to ensure multiplayer compatability
 - **[Mage Arena Modding Discord](https://discord.gg/GHdT7kHEBT)** - Community support
-- 
 
 Happy modding! 🔮✨
