@@ -1,4 +1,4 @@
-﻿using BepInEx;
+using BepInEx;
 using UnityEngine;
 using System.Threading.Tasks;
 using BlackMagicAPI.Enums;
@@ -11,7 +11,7 @@ using System.Reflection;
 using Steamworks;
 namespace TungstenBalls
 {
-    [BepInPlugin("com.magearena.tungstenballs", "Tungsten Balls", "1.0.0")]
+    [BepInPlugin("com.magearena.tungstenballs", "Tungsten Balls", "1.0.2")]
     [BepInProcess("MageArena.exe")]
     [BepInDependency("com.magearena.modsync", BepInDependency.DependencyFlags.HardDependency)]
     public class TungstenBalls : BaseUnityPlugin
@@ -87,7 +87,7 @@ namespace TungstenBalls
         // Track which players are currently under the Tungsten Balls effect
         public static Dictionary<PlayerMovement, bool> affectedPlayers = new Dictionary<PlayerMovement, bool>();
         
-        public override void CastSpell(GameObject playerObj, Vector3 direction, int level)
+        public override void CastSpell(GameObject playerObj, Vector3 spawnPos, Vector3 viewDirectionVector, int castingLevel)
         {
             // Allow spell to be processed on all clients
             PlayerMovement casterMovement = playerObj.GetComponent<PlayerMovement>();
@@ -98,8 +98,8 @@ namespace TungstenBalls
             
             // Find all players within 30 meters in a cone of vision
             GameObject[] allPlayers = GameObject.FindGameObjectsWithTag("Player");
-            Vector3 casterPosition = playerObj.transform.position;
-            Vector3 casterForward = playerObj.transform.forward;
+            Vector3 casterPosition = spawnPos; // Use the provided spawn position
+            Vector3 casterForward = viewDirectionVector.normalized; // Use the provided view direction
             
             // Get local player's Steam name for protection
             string localSteamName = SteamFriends.GetPersonaName();
